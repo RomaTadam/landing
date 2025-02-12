@@ -1,0 +1,93 @@
+@use '../base/colors' as *;
+
+.achievements {
+
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__part {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 20px 32px 24px 24px;
+
+    min-height: 152px;
+
+    background-color: $grayDark;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 110%;
+  }
+
+  &__text {
+    color: $gray;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+
+  // @media screen and (min-width: 360px) {
+  //   & {
+  //   }
+  // }
+
+  @media screen and (min-width: 780px) {
+    & {
+      padding-top: 44px;
+      padding-bottom: 44px;
+
+      &_wrapper {
+        // height: 416px;
+        
+        gap: 16px;
+      }
+
+      &__part {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+      }
+
+      &__card {
+        padding: 24px 36px 24px 32px;
+      }
+
+      &__title--big {
+        font-size: 56px;
+        line-height: 110%;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    & {
+      &_wrapper {
+        flex-direction: row;
+      }
+
+      &__card--first {
+        flex: 1 1 calc(25%);
+
+        padding: 36px 55px 36px 44px;
+      }
+
+      &__title--big {
+        font-size: 76px;
+        line-height: 110%;
+      }
+    }
+  }
+}

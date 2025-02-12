@@ -1,0 +1,125 @@
+@use '../base/colors' as *;
+
+.stack {
+  padding-top: 160px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__about {
+    align-self: center;
+    text-align: center;
+
+    width: 70%;
+
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 110%;
+  }
+
+  &__about--red {
+    display: block;
+    color: $red;
+  }
+
+  &__tech {
+    padding-top: 44px;
+  }
+
+  &__tech--first {
+    display: flex;
+    flex-direction: row;
+    gap: 151px;
+    justify-content: space-between;
+  }
+
+  &__tech--second {
+    display: flex;
+    flex-direction: row;
+    gap: 152px;
+    justify-content: space-between;
+
+    padding-top: 44px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    align-self: center;
+
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 150%;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &::before {
+      content: '{';
+      color: $red;
+      padding-right: 12px;
+    }
+
+    &::after {
+      content: '}';
+      color: $red;
+      padding-left: 12px;
+    }
+  }
+
+  &__card-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    align-items: baseline;
+
+    padding-top: 24px;
+  }
+
+  &__card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__sircle {
+    background-color: $grayDark;
+
+    padding: 26px 13px;
+
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+
+    color: $gray;
+
+    padding-top: 12px;
+  }
+
+  // @media screen and (min-width: 360px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 780px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   & {
+  //   }
+  // }
+
+}

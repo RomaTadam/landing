@@ -1,0 +1,46 @@
+@use '../base/colors' as *;
+
+.footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  &__menu {
+    &-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 89px;
+    }
+
+    &-link {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+
+  // @media screen and (min-width: 360px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 780px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   & {
+  //   }
+  // }
+}

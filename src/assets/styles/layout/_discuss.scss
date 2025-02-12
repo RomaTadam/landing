@@ -1,0 +1,106 @@
+@use '../base/colors' as *;
+
+.discuss {
+  padding-top: 20px;
+  padding-bottom: 62px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 100%;
+
+    text-transform: uppercase;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+
+    text-align: center;
+
+    padding-top: 12px;
+    padding-bottom: 24px;
+  }
+
+  &__button {
+    color: $white;
+
+    padding: 14px 32px;
+    background-color: $red;
+    min-width: 328px;
+    text-align: center;
+  }
+
+  // @media screen and (min-width: 360px) {
+  //   & {
+  //   }
+  // }
+
+  @media screen and (min-width: 780px) {
+    & {
+      padding-bottom: 47px;
+
+      &__wrapper {
+        // align-items: stretch;
+        align-items: center;
+      }
+
+      &__title {
+        align-self: center;
+
+        font-size: 127px;
+      }
+
+      &__content {
+        justify-content: space-between;
+        flex-direction: row;
+
+        width: 730px;
+        
+        padding-top: 10px;
+      }
+
+      &__text {
+        text-align: left;
+      }
+
+      &__button {
+        align-self: center;
+      }
+
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    & {
+      padding-bottom: 52px;
+
+      &__title {
+        font-size: 207px;
+      }
+
+      &__content {
+        width: 1192px;
+      }
+
+      &__text {
+        font-size: 17px;
+        line-height: 150%;
+      }
+    }
+  }
+
+}

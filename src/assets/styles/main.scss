@@ -1,0 +1,24 @@
+@use './forward' as *;
+
+body {
+  color: $white;
+  font-family: "Onest", serif;
+  font-weight: 400;
+}
+
+.main {
+  background-color: $bgblack-color;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-style: normal;
+  scroll-behavior: smooth;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;  
+}

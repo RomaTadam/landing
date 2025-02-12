@@ -1,0 +1,277 @@
+@use '../base/colors' as *;
+
+// input,
+// textarea,
+// button {
+//   appearance: none;
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+//   border: none;
+//   background: none;
+//   outline: none;
+//   box-shadow: none;
+
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+//   outline: none;
+//   background: none;
+//   box-sizing: border-box;
+//   font-family: inherit; 
+
+//   all: unset;
+// }
+
+.formtask {
+  padding-top: 100px;
+
+  &__wrapper {
+    background-color: $grayDark;
+
+    padding: 44px 52px 52px 52px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+    // gap: 100px;
+  }
+
+  &__tellus {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+
+  &__tellus,
+  &__form {
+    flex: 0 0 calc(50% - 8px);
+    // flex: 0 0 calc(50% - 50px);
+  }
+
+  &__tellus-title {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 1px;
+  }
+
+  &__tellus-text {
+    padding-top: 24px;
+    width: 70%;
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  &__tellus--card {
+    background-color: $grayLight;
+
+    padding: 16px 32px 32px 32px;
+
+    position: relative;
+
+    width: 80%;
+  }
+
+  &__tellus-status {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+
+    padding: 8px 12px 8px 22px;
+    
+    background-color: #07B60733;
+    color: #07B607;
+
+    &::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background-color: #07B607;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 4px;
+      margin-bottom: 1px;
+    }
+  }
+
+  &__person {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 16px;
+
+    &-box {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &-name {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      letter-spacing: -1px;
+    }
+
+    &-status {
+      background-color: #CC072433;
+      color: $red;
+
+      padding: 8px 12px;
+    }
+  }
+
+  &__info {
+    padding-top: 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &-title {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 1px;
+
+      color: $gray;
+    }
+
+    &-phone {
+      font-size: 26px;
+      font-weight: 400;
+      line-height: 130%;
+    }
+  }
+
+  //
+  
+  &__form {
+    padding-top: 16px;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    &-name,
+    &-mail,
+    &-task,
+    &-file,
+    &-submit {
+      // reset all styles
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      border: none;
+      background: none;
+      outline: none;
+      box-shadow: none;
+    
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      background: none;
+      box-sizing: border-box;
+      font-family: inherit; 
+    
+      all: unset;
+    }
+
+    &-file {
+      display: none;
+    }
+
+    &-name,
+    &-mail,
+    &-task {
+      // new style
+      padding: 20px 24px 20px 24px;
+
+      background-color: $grayLight;
+
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 130%;
+
+      flex: 1;
+    }
+
+    &-task {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    &-label {
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 130%;
+      text-decoration: underline;
+    }
+
+    &-clip {
+      padding-right: 6px;
+      vertical-align: bottom;
+    }
+
+    &-submit {
+      margin-top: 32px;
+
+      color: $white;
+  
+      padding: 19px 32px;
+      background-color: $red;
+      // min-width: 328px;
+      text-align: center;
+
+      font-size: 17px;
+      font-weight: 500;
+      line-height: 150%;
+    }
+
+    &-text {
+      text-align: center;
+
+      color: $gray;
+
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    &-link {
+      color: $white;
+    }
+  }
+
+  &__small {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 16px;
+  }
+
+
+
+
+
+  // @media screen and (min-width: 360px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 780px) {
+  //   & {
+  //   }
+  // }
+
+  // @media screen and (min-width: 1280px) {
+  //   & {
+  //   }
+  // }
+}
