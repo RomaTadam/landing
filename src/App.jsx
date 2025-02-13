@@ -37,7 +37,7 @@ function App() {
           <Separator />
           <Weopen />
           <Separator />
-          <Footer />
+          <Footer /> 
       </main>
     </>
   )
