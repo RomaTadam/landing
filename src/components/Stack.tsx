@@ -17,9 +17,9 @@ import mobileIos from '../assets/images/mobile_ios.svg'
 
 const Stack = () => {
   return (
-    <section className="stack" id="stack">
+    <section className="stack">
       <div className="container">
-        <div className="stack__wrapper">
+        <div className="stack__wrapper" id="stack">
           <div className="stack__about">
             <span className="stack__about--red">Работаем с актуальным стеком,</span> который закрывает задачи любого уровня сложности
           </div>
@@ -31,13 +31,13 @@ const Stack = () => {
                 <div className="stack__card-box">
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={frontReact} alt="react" />
+                      <img className="stack__sircle-img" src={frontReact} alt="react" />
                     </div>
                     <p className="stack__name">React</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={frontVue} alt="react" />
+                      <img className="stack__sircle-img" src={frontVue} alt="vue" />
                     </div>
                     <p className="stack__name">Vue</p>
                   </div>
@@ -49,19 +49,19 @@ const Stack = () => {
                 <div className="stack__card-box">
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={testRegress} alt="react" />
+                      <img className="stack__sircle-img" src={testRegress} alt="regress" />
                     </div>
                     <p className="stack__name">Регресс</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={testAutoqa} alt="react" />
+                      <img className="stack__sircle-img" src={testAutoqa} alt="autotest" />
                     </div>
                     <p className="stack__name">Автотест</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={testLoadtest} alt="react" />
+                      <img className="stack__sircle-img" src={testLoadtest} alt="loadtest" />
                     </div>
                     <p className="stack__name">Нагрузка</p>
                   </div>
@@ -73,13 +73,13 @@ const Stack = () => {
                 <div className="stack__card-box">
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={analyticsSys} alt="react" />
+                      <img className="stack__sircle-img" src={analyticsSys} alt="sys analytics" />
                     </div>
                     <p className="stack__name">Системная</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={analyticsBus} alt="react" />
+                      <img className="stack__sircle-img" src={analyticsBus} alt="business" />
                     </div>
                     <p className="stack__name">Бизнес</p>
                   </div>
@@ -93,25 +93,25 @@ const Stack = () => {
                 <div className="stack__card-box">
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={backendJava} alt="react" />
+                      <img className="stack__sircle-img" src={backendJava} alt="java" />
                     </div>
                     <p className="stack__name">Java</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={backendC} alt="react" />
+                      <img className="stack__sircle-img" src={backendC} alt="c" />
                     </div>
                     <p className="stack__name">C#</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={backendGolang} alt="react" />
+                      <img className="stack__sircle-img" src={backendGolang} alt="golang" />
                     </div>
                     <p className="stack__name">GoLang</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={backendSpring} alt="react" />
+                      <img className="stack__sircle-img" src={backendSpring} alt="spring" />
                     </div>
                     <p className="stack__name">Spring</p>
                   </div>
@@ -123,25 +123,25 @@ const Stack = () => {
                 <div className="stack__card-box">
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={mobileUx} alt="react" />
+                      <img className="stack__sircle-img" src={mobileUx} alt="ux ui" />
                     </div>
                     <p className="stack__name">UX / UI</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={mobileSwift} alt="react" />
+                      <img className="stack__sircle-img" src={mobileSwift} alt="swift" />
                     </div>
                     <p className="stack__name">Swift</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={mobileAndroid} alt="react" />
+                      <img className="stack__sircle-img" src={mobileAndroid} alt="android sdk/ndk" />
                     </div>
                     <p className="stack__name">Android <br /> SDK/NDK</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
-                      <img src={mobileIos} alt="react" />
+                      <img className="stack__sircle-img" src={mobileIos} alt="ios" />
                     </div>
                     <p className="stack__name">IOS</p>
                   </div>

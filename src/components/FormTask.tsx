@@ -4,15 +4,15 @@ import formtaskClip from '../assets/images/formtask_clip.svg'
 
 const FormTask = () => {
   return (
-    <section className="formtask" id="formtask">
+    <section className="formtask">
       <div className="container">
-        <div className="formtask__wrapper">
+        <div className="formtask__wrapper" id="formtask">
           <div className="formtask__tellus">
             <div className="formtask__tellus--about">
               <h2 className="formtask__tellus-title">Расскажите нам о своей задаче</h2>
               <p className="formtask__tellus-text">Оставьте заявку, и мы подберем опытную команду для IT решений вашего бизнеса</p>
             </div>
-            <div className="formtask__tellus--card">
+            <div className="formtask__tellus--card" >
               <p className="formtask__tellus-status">online</p>
               <div className="formtask__person">
                 <img src={formtaskAvatar} alt="avatar" />

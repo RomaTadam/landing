@@ -28,10 +28,10 @@ function App() {
           <Services />
           <Stack />
           <FormTask />
-          {/* <Clients /> */}
+              {/* <Clients /> */}
           <Cooperation />
           <Separator />
-          {/* <Team /> */}
+              {/* <Team /> */}
           <Vacancies />
           <Faq />
           <Separator />

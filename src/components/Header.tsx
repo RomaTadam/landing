@@ -20,7 +20,7 @@ const Header = () => {
                   <a href="#stack" className="header__menu-link">Стек</a>
                 </li>
                 <li className="header__menu-item">
-                  <a href="#team" className="header__menu-link">О нас</a>
+                  <a href="#achievements" className="header__menu-link">О нас</a>
                 </li>
                 <li className="header__menu-item">
                   <a href="#weopen" className="header__menu-link">Контакты</a>
