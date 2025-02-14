@@ -30,26 +30,6 @@ const Vacancies = () => {
               <p className="vacancies__card-salary">от 165 000 ₽</p>
             </div>
 
-            {/* <div className="vacancies__card">
-              <div className="vacancies__card-row">
-                <p className="vacancies__card-badge">Дизайн</p>
-                <p className="vacancies__card-badge">Удаленно или офис</p>
-                <img className="vacancies__card-img" src={vacanciesGo} alt="link" />
-              </div>
-              <h4 className="vacancies__card-title">Ведущий веб дизайнер UI</h4>
-              <p className="vacancies__card-salary">от 140 000 ₽</p>
-            </div> */}
-
-            {/* <div className="vacancies__card">
-              <div className="vacancies__card-row">
-                <p className="vacancies__card-badge">Менеджмент</p>
-                <p className="vacancies__card-badge">Офис</p>
-                <img className="vacancies__card-img" src={vacanciesGo} alt="link" />
-              </div>
-              <h4 className="vacancies__card-title">Project Manager (разработка)</h4>
-              <p className="vacancies__card-salary">от 180 000 ₽</p>
-            </div> */}
-
             <div className="vacancies__card">
               <div className="vacancies__card-row">
                 <p className="vacancies__card-badge">Тестирование</p>
