@@ -1,7 +1,17 @@
 import React from "react";
-import formtaskAvatar from '../assets/images/formtask_avatar.jpg'
+import formtaskAvatar from "../assets/images/formtask_avatar.jpg";
 
 const Weopen = () => {
+  const handleClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    href: string
+  ) => {
+    event.preventDefault();
+    const target = document.querySelector("#formtask");
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section className="weopen" id="weopen">
       <div className="container">
@@ -9,7 +19,22 @@ const Weopen = () => {
           <div className="weopen__text">
             <p className="weopen__text-title">Мы открыты к сотрудничеству</p>
             <h2 className="weopen__text-about">
-              Можете заполнить <a href="" className="weopen__text-about--link">бриф</a>, написать нам <a href="" className="weopen__text-about--link">на почту</a> или <a href="" className="weopen__text-about--link">в телеграм</a>
+              Можете заполнить{" "}
+              <a
+                onClick={handleClick}
+                href="#achievements"
+                className="weopen__text-about--link"
+              >
+                бриф
+              </a>
+              , написать нам{" "}
+              <a href="" className="weopen__text-about--link">
+                на почту
+              </a>{" "}
+              или{" "}
+              <a href="" className="weopen__text-about--link">
+                в телеграм
+              </a>
             </h2>
           </div>
           <div className="weopen__text-person">
@@ -32,7 +57,7 @@ const Weopen = () => {
         <h1 className="discuss__title">codestaff</h1>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Weopen;

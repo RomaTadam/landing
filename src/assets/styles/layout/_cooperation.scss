@@ -160,3 +160,63 @@
   // }
 
 }
+
+/* Анимации */
+.animate-flip {
+  animation: flipInX 0.6s ease-in-out;
+  backface-visibility: visible !important;
+}
+
+@keyframes flipInX {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0;
+  }
+  to {
+    transform: perspective(400px);
+    opacity: 1;
+  }
+}
+
+/* Обновленные стили для карточек схем */
+.cooperation__schemes-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Стили для кружков */
+.cooperation__strong-sircles {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.cooperation__strong-sircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: $red;
+  
+  &--two {
+    background-color: #CC0724;
+  }
+  
+  &--three {
+    background-color: #A10018;
+  }
+}
+
+/* Адаптация предыдущих стилей */
+.cooperation__strong-card {
+  padding: 81px 24px 24px 24px;
+  position: relative;
+  background-color: $grayDark;
+  min-height: 200px;
+}
