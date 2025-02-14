@@ -9,10 +9,10 @@ const Footer = () => {
           <nav className="footer__menu">
             <ul className="footer__menu-list">
               <li className="footer__menu-item">
-                <a className="footer__menu-link" href="">Политика конфиденциальности</a>
+                <span className="footer__menu-link">Политика конфиденциальности</span>
               </li>
               <li className="footer__menu-item">
-                <a className="footer__menu-link" href="">Пользовательское соглашение</a>
+                <span className="footer__menu-link">Пользовательское соглашение</span>
               </li>
             </ul>
           </nav>

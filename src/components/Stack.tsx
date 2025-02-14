@@ -4,22 +4,22 @@ import frontVue from '../assets/images/front_vue.svg'
 import testRegress from '../assets/images/test_regress.svg'
 import testAutoqa from '../assets/images/test_autoqa.svg'
 import testLoadtest from '../assets/images/test_loadtest.svg'
-import analyticsSys from '../assets/images/analytics_system.svg'
+import analyticsSys from '../assets/images/analytics_system2.svg'
 import analyticsBus from '../assets/images/analytics_business.svg'
 import backendJava from '../assets/images/backend_java.svg'
 import backendC from '../assets/images/backend_c.svg'
 import backendGolang from '../assets/images/backend_golang.svg'
-import backendSpring from '../assets/images/backend_spring.svg'
+// import backendSpring from '../assets/images/backend_spring.svg'
 import mobileUx from '../assets/images/mobile_ux.svg'
-import mobileSwift from '../assets/images/mobile_swift.svg'
+// import mobileSwift from '../assets/images/mobile_swift.svg'
 import mobileAndroid from '../assets/images/mobile_android.svg'
 import mobileIos from '../assets/images/mobile_ios.svg'
 
 const Stack = () => {
   return (
-    <section className="stack">
+    <section className="stack" id="stack">
       <div className="container">
-        <div className="stack__wrapper" id="stack">
+        <div className="stack__wrapper">
           <div className="stack__about">
             <span className="stack__about--red">Работаем с актуальным стеком,</span> который закрывает задачи любого уровня сложности
           </div>
@@ -57,7 +57,7 @@ const Stack = () => {
                     <div className="stack__sircle">
                       <img className="stack__sircle-img" src={testAutoqa} alt="autotest" />
                     </div>
-                    <p className="stack__name">Автотест</p>
+                    <p className="stack__name">«Автотесты»</p>
                   </div>
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
@@ -109,12 +109,12 @@ const Stack = () => {
                     </div>
                     <p className="stack__name">GoLang</p>
                   </div>
-                  <div className="stack__card-wrapper">
+                  {/* <div className="stack__card-wrapper">
                     <div className="stack__sircle">
                       <img className="stack__sircle-img" src={backendSpring} alt="spring" />
                     </div>
                     <p className="stack__name">Spring</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -127,12 +127,12 @@ const Stack = () => {
                     </div>
                     <p className="stack__name">UX / UI</p>
                   </div>
-                  <div className="stack__card-wrapper">
+                  {/* <div className="stack__card-wrapper">
                     <div className="stack__sircle">
                       <img className="stack__sircle-img" src={mobileSwift} alt="swift" />
                     </div>
                     <p className="stack__name">Swift</p>
-                  </div>
+                  </div> */}
                   <div className="stack__card-wrapper">
                     <div className="stack__sircle">
                       <img className="stack__sircle-img" src={mobileAndroid} alt="android sdk/ndk" />

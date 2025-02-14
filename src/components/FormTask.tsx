@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import formtaskAvatar from "../assets/images/formtask_avatar.jpg";
+import formtaskAvatar from "../assets/images/formtask_alex_small.jpg";
 import formtaskClip from "../assets/images/formtask_clip.svg";
 
 const FormTask = () => {
@@ -87,17 +87,17 @@ const FormTask = () => {
               </p>
             </div>
             <div className="formtask__tellus--card">
-              <p className="formtask__tellus-status">online</p>
+              {/* <p className="formtask__tellus-status">online</p> */}
               <div className="formtask__person">
                 <img src={formtaskAvatar} alt="avatar" />
                 <div className="formtask__person-box">
-                  <h5 className="formtask__person-name">Константин</h5>
+                  <h5 className="formtask__person-name">Алексей</h5>
                   <p className="formtask__person-status">Sales-менеджер</p>
                 </div>
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (999) 312-21-54</h4>
+                <h4 className="formtask__info-phone">+7 (917) 054-82-50</h4>
               </div>
             </div>
           </div>
@@ -133,6 +133,7 @@ const FormTask = () => {
                   id="task"
                   value={formData.task}
                   onChange={handleInputChange}
+                  required
                 ></textarea>
                 <input
                   className="formtask__form-file"

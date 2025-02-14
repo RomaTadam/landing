@@ -1,5 +1,5 @@
 import React from "react";
-import formtaskAvatar from "../assets/images/formtask_avatar.jpg";
+import formtaskAvatar from "../assets/images/formtask_alex_small.jpg";
 
 const Weopen = () => {
   const handleClick = (
@@ -28,28 +28,28 @@ const Weopen = () => {
                 бриф
               </a>
               , написать нам{" "}
-              <a href="" className="weopen__text-about--link">
+              <a href="mailto:info@codestaff.ru" className="weopen__text-about--link">
                 на почту
               </a>{" "}
               или{" "}
-              <a href="" className="weopen__text-about--link">
+              <a href="https://t.me/Alexey_CodeStaff" className="weopen__text-about--link">
                 в телеграм
               </a>
             </h2>
           </div>
           <div className="weopen__text-person">
             <div className="formtask__tellus--card">
-              <p className="formtask__tellus-status">online</p>
+              {/* <p className="formtask__tellus-status">online</p> */}
               <div className="formtask__person">
                 <img src={formtaskAvatar} alt="avatar" />
                 <div className="formtask__person-box">
-                  <h5 className="formtask__person-name">Константин</h5>
+                  <h5 className="formtask__person-name">Алексей</h5>
                   <p className="formtask__person-status">Sales-менеджер</p>
                 </div>
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (999) 312-21-54</h4>
+                <h4 className="formtask__info-phone">+7 (917) 054-82-50</h4>
               </div>
             </div>
           </div>
