@@ -23,7 +23,7 @@ const Faq = () => {
     {
       id: 3,
       question: 'Как рассчитывается стоимость аутстаффинговых услуг?',
-      answer: 'Стоимость наших услуг формируется исходя из прозрачных для вас пунктов:<ul><li>Заработная плата сотрудника</li><li>Упрощенная система налогообложения</li><li>Минимальные косвенные расходы</li><li>Приемлемая маржинальность</li></ul>',
+      answer: 'Стоимость наших услуг формируется исходя из прозрачных для вас пунктов:<ul class="faq__card-answer--list"><li class="faq__card-answer--item">Заработная плата сотрудника</li><li class="faq__card-answer--item">Упрощенная система налогообложения</li><li class="faq__card-answer--item">Минимальные косвенные расходы</li><li class="faq__card-answer--item">Приемлемая маржинальность</li></ul>',
     },
   ];
 
@@ -52,9 +52,8 @@ const Faq = () => {
                   className={`faq__card-answer 
                     ${activeId === item.id ? 'active' : ''}`
                   }
-                >
-                  {item.answer}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: item.answer }}
+                ></p>
               </div>
             ))}
 

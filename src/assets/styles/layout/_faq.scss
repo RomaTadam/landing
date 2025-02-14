@@ -29,6 +29,8 @@
 
     // position: relative;
 
+    cursor: pointer;
+
     &-question {
       // padding-top: 13.5px;
       // padding-bottom: 13.5px;
@@ -62,6 +64,10 @@
       color: $gray;
 
       display: none;
+
+      &--list {
+        padding-left: 20px;
+      }
     }
 
     &-answer.active {
