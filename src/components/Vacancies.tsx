@@ -51,10 +51,10 @@ const Vacancies = () => {
             </div>
 
           </div>
-          <a className="vacancies__bigButton" href="">
+          <span className="vacancies__bigButton">
             Все вакансии
             <img className="vacancies__bigButton-right" src={vacanciesRight} alt="" />
-          </a>
+          </span>
         </div>
       </div>
     </section>

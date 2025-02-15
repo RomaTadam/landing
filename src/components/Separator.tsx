@@ -1,9 +1,10 @@
 import React from "react";
 
-const Separator = () => {
+const Separator = ({ mobile } ) => {
   return (
     <div className="container">
-      <hr className="separator" />
+      {/* <hr className="separator" /> */}
+      <hr className={`separator ${mobile ? 'mobile' : ""}`} />
     </div>
   )
 }

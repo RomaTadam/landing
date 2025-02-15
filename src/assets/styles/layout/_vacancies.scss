@@ -1,7 +1,7 @@
 @use '../base/colors' as *;
 
 .vacancies {
-  padding-top: 14px;
+  padding-top: 44px;
 
   &__title {
     font-size: 30px;
@@ -88,6 +88,8 @@
 
     padding-top: 15px;
     padding-bottom: 15px;
+
+    cursor: pointer;
 
     &-right {
       padding-left: 8px;

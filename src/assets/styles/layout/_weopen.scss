@@ -1,8 +1,8 @@
 @use '../base/colors' as *;
 
 .weopen {
-  padding-top: 10px;
-  padding-bottom: 24px;
+  padding-top: 44px;
+  padding-bottom: 16px;
 
   &__wrapper {
     display: flex;
@@ -50,10 +50,53 @@
   //   }
   // }
 
-  // @media screen and (min-width: 780px) {
-  //   & {
-  //   }
-  // }
+  @media screen and (min-width: 780px) {
+    & {
+      padding-top: 44px;
+      padding-bottom: 24px;
+    
+      &__wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 24px;
+      }
+    
+      &__text {
+        flex: 0 1 52%;
+    
+        &-person {
+          flex: 1;
+        }
+    
+        &-title {
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 1px;
+      
+          text-transform: uppercase;
+      
+          &--opacity {
+            opacity: 60%;
+          }
+        }
+    
+        &-about {
+          padding-top: 16px;
+    
+          font-size: 40px;
+          font-weight: 500;
+          line-height: 110%;
+          letter-spacing: -1px;
+    
+          &--link {
+            color: $red;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
 
   @media screen and (min-width: 1280px) {
     & {
@@ -109,7 +152,15 @@
 }
 
 .weopen .discuss__title {
-  padding-top: 52px;
+  padding-top: 44px;
 
   text-align: center;
+
+  @media screen and (min-width: 780px) {
+    padding-top: 24px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 52px;
+  }
 }

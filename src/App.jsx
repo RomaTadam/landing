@@ -29,15 +29,16 @@ function App() {
           <Stack />
           <FormTask />
               {/* <Clients /> */}
+          <Separator mobile />
           <Cooperation />
-          <Separator />
+          <Separator mobile />
               {/* <Team /> */}
           <Vacancies />
           <Faq />
-          <Separator />
+          <Separator mobile />
           <Weopen />
-          <Separator />
-          <Footer /> 
+          <Separator mobile />
+          <Footer />
       </main>
     </>
   )

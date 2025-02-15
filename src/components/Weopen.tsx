@@ -22,7 +22,7 @@ const Weopen = () => {
               Можете заполнить{" "}
               <a
                 onClick={handleClick}
-                href="#achievements"
+                href="#formtask"
                 className="weopen__text-about--link"
               >
                 бриф
