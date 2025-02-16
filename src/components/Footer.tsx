@@ -16,7 +16,7 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
-          <p className="footer__inn">ООО «Сodestaff» ИНН: 3657483956</p>
+          <p className="footer__inn">ООО «Кодстафф» ИНН 7300038488</p>
         </div>
       </div>
     </footer>
