@@ -1,5 +1,3 @@
-// import './App.css'
-// import "./assets/styles/App.scss"
 import Achievements from './components/Achievements'
 import Cooperation from './components/Cooperation'
 // import Clients from './components/Clients'
