@@ -6,6 +6,7 @@ import Faq from './components/Faq'
 import Footer from './components/Footer'
 import FormTask from './components/FormTask'
 import Header from './components/Header'
+import Products from './components/Products'
 import Separator from './components/Separator'
 import Services from './components/Services'
 import Stack from './components/Stack'
@@ -24,6 +25,9 @@ function App() {
           <Achievements />
           <Separator />
           <Services />
+          <Separator mobile />
+          <Products />
+          <Separator mobile />
           <Stack />
           <FormTask />
               {/* <Clients /> */}

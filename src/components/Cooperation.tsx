@@ -6,6 +6,7 @@ const Cooperation = () => {
 
   const content = {
     time: {
+      label: "Time & Material",
       how: {
         light: "Повременная схема сотрудничества. ",
         text: "Оплата рассчитывается за фактически выполненный объём работ. Отчётный период составляет 1 календарный месяц.",
@@ -23,6 +24,7 @@ const Cooperation = () => {
       ],
     },
     rate: {
+      label: "Monthly Rate",
       how: {
         light: "Фиксированная оплата за оказанные услуги в месяц. ",
         text: "Расчет происходит исходя из заранее обговорённых коммерческих условий.",
@@ -42,6 +44,27 @@ const Cooperation = () => {
         },
       ],
     },
+    key: {
+      label: "Проект под ключ",
+      how: {
+        light: "Фиксированная сумма контракта. ",
+        text: "Поэтапная оплата или по окончании работ.",
+      },
+      features: [
+        {
+          title: "Коммуникация",
+          text: "Весь процесс строится на постоянном взаимодействии с клиентом, регулярные отчеты, согласования и оперативная обратная связь.",
+        },
+        {
+          title: "Управление",
+          text: "Выделенный руководитель проекта управляет командой и ходом работ, снимая с клиента рутину.",
+        },
+        {
+          title: "Результат",
+          text: "Клиент получает полностью готовое решение, адаптированное под его потребности.",
+        },
+      ],
+    },
   };
 
   const handleSchemeClick = (scheme) => {
@@ -56,26 +79,19 @@ const Cooperation = () => {
           <div className="cooperation__schemes">
             <p className="cooperation__title">Схемы сотрудничества</p>
             <div className="cooperation__schemes-box">
-              <h3
-                className={`cooperation__schemes-card ${
-                  selectedScheme === "time"
-                    ? "cooperation__schemes-card--time"
-                    : "cooperation__schemes-card--rate"
-                }`}
-                onClick={() => handleSchemeClick("time")}
-              >
-                Time & Material
-              </h3>
-              <h3
-                className={`cooperation__schemes-card ${
-                  selectedScheme === "rate"
-                    ? "cooperation__schemes-card--time"
-                    : "cooperation__schemes-card--rate"
-                }`}
-                onClick={() => handleSchemeClick("rate")}
-              >
-                Monthly Rate
-              </h3>
+              {Object.entries(content).map(([schemeKey, schemeData]) => (
+                <h3
+                  key={schemeKey}
+                  className={`cooperation__schemes-card ${
+                    selectedScheme === schemeKey
+                      ? "cooperation__schemes-card--time"
+                      : "cooperation__schemes-card--rate"
+                  }`}
+                  onClick={() => handleSchemeClick(schemeKey)}
+                >
+                  {schemeData.label}
+                </h3>
+              ))}
               <div className="cooperation__schemes-hr"></div>
             </div>
           </div>

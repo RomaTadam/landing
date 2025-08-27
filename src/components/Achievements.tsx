@@ -16,7 +16,7 @@ const Achievements = () => {
               <div className="achievements__text">успешно реализованных проектов нашими специалистами и менеджерами</div>
             </div>
             <div className="achievements__card">
-              <div className="achievements__title">25 <img src={personIcon} alt="perosn" /></div>
+              <div className="achievements__title">50 <img src={personIcon} alt="perosn" /></div>
               <div className="achievements__text">специалистов в штате компании с высоким уровнем компетенций</div>
             </div>
             <div className="achievements__card">

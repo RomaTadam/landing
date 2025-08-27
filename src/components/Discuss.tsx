@@ -16,7 +16,7 @@ const Discuss = () => {
           <h1 className="discuss__title">codestaff</h1>
           <div className="discuss__content">
             <p className="discuss__text">
-              Предоставляем надежные ИТ-ресурсы, <br /> чтобы Вы развивали свой бизнес
+              Технологии под контролем экспертов
             </p>
             <a
               className="discuss__button"

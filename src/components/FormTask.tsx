@@ -82,8 +82,7 @@ const FormTask = () => {
                 Расскажите нам о своей задаче
               </h2>
               <p className="formtask__tellus-text">
-                Оставьте заявку, и мы подберем опытную команду для IT решений
-                вашего бизнеса
+                Оставьте заявку и мы поможем решить вашу бизнес-задачу
               </p>
             </div>
             <div className="formtask__tellus--card">
@@ -97,7 +96,7 @@ const FormTask = () => {
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (917) 054-82-50</h4>
+                <h4 className="formtask__info-phone">+7 (495) 798-20-20</h4>
               </div>
             </div>
           </div>

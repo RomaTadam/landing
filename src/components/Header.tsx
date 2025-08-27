@@ -56,6 +56,15 @@ const Header = () => {
                 </li>
                 <li className="header__menu-item">
                   <a
+                    onClick={(e) => handleClick(e, "#products")}
+                    href="#products"
+                    className="header__menu-link"
+                  >
+                    Продукты
+                  </a>
+                </li>
+                <li className="header__menu-item">
+                  <a
                     onClick={(e) => handleClick(e, "#stack")}
                     href="#stack"
                     className="header__menu-link"
@@ -121,6 +130,15 @@ const Header = () => {
                       className="header__sideMenu-link"
                     >
                       Услуги
+                    </a>
+                  </li>
+                  <li className="header__sideMenu-item">
+                    <a
+                      onClick={(e) => handleClick(e, "#products")}
+                      href="#products"
+                      className="header__sideMenu-link"
+                    >
+                      Продукты
                     </a>
                   </li>
                   <li className="header__sideMenu-item">
