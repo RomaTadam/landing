@@ -134,10 +134,10 @@ const Vacancies = () => {
               );
             })}
           </div>
-          <span className="vacancies__bigButton">
+          {/* <span className="vacancies__bigButton">
             Все вакансии
             <img className="vacancies__bigButton-right" src={vacanciesRight} alt="" />
-          </span>
+          </span> */}
         </div>
       </div>
     </section>

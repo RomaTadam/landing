@@ -43,13 +43,13 @@ const Weopen = () => {
               <div className="formtask__person">
                 <img src={formtaskAvatar} alt="avatar" />
                 <div className="formtask__person-box">
-                  <h5 className="formtask__person-name">Алексей</h5>
+                  <h5 className="formtask__person-name">Менеджер</h5>
                   <p className="formtask__person-status">Sales-менеджер</p>
                 </div>
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (917) 054-82-50</h4>
+                <h4 className="formtask__info-phone">+7 (495) 798-20-20</h4>
               </div>
             </div>
           </div>

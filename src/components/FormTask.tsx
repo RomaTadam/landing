@@ -90,7 +90,7 @@ const FormTask = () => {
               <div className="formtask__person">
                 <img src={formtaskAvatar} alt="avatar" />
                 <div className="formtask__person-box">
-                  <h5 className="formtask__person-name">Алексей</h5>
+                  <h5 className="formtask__person-name">Менеджер</h5>
                   <p className="formtask__person-status">Sales-менеджер</p>
                 </div>
               </div>

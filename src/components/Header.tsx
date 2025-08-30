@@ -72,7 +72,7 @@ const Header = () => {
                     Стек
                   </a>
                 </li>
-                <li className="header__menu-item">
+                {/* <li className="header__menu-item">
                   <a
                     onClick={(e) => handleClick(e, "#achievements")}
                     href="#achievements"
@@ -80,7 +80,7 @@ const Header = () => {
                   >
                     О нас
                   </a>
-                </li>
+                </li> */}
                 <li className="header__menu-item">
                   <a
                     onClick={(e) => handleClick(e, "#weopen")}
@@ -150,7 +150,7 @@ const Header = () => {
                       Стек
                     </a>
                   </li>
-                  <li className="header__sideMenu-item">
+                  {/* <li className="header__sideMenu-item">
                     <a
                       onClick={(e) => handleClick(e, "#achievements")}
                       href="#achievements"
@@ -158,7 +158,7 @@ const Header = () => {
                     >
                       О нас
                     </a>
-                  </li>
+                  </li> */}
                   <li className="header__sideMenu-item">
                     <a
                       onClick={(e) => handleClick(e, "#weopen")}
