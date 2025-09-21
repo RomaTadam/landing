@@ -20,11 +20,11 @@ const Services = () => {
             </div>            
             <div className="services__card services__card--qa">
               <h4 className="services__title">Мобильная разработка</h4>
-              <div className="services__text">Создаем удобные, современные нативные и кроссплатформенные приложения для решения бизнес задач.</div>
+              <div className="services__text">Создаем удобные, современные нативные и кроссплатформенные приложения для решения бизнес задач</div>
             </div>
             <div className="services__card services__card--qa">
               <h4 className="services__title">QA и тестирование</h4>
-              <div className="services__text">Предлагаем полное покрытие тестированием: функциональное, ручное и нагрузочное.</div>
+              <div className="services__text">Предлагаем полное покрытие тестированием: функциональное, ручное и нагрузочное</div>
             </div>
             <div className="services__card services__card--mvp">
               <h4 className="services__title">Аутстаффинг</h4>

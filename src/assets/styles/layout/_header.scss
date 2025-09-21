@@ -42,6 +42,12 @@
     font-weight: 100;
   }
 
+  &__phone {
+    display: none;
+    color: $white;
+    font-weight: 100;
+  }
+
   &__overlay {
     display: none;
     position: fixed;
@@ -161,7 +167,20 @@
         line-height: 130%;
       }
 
+      &__contactWrapper {
+        display: flex;
+        white-space: nowrap;
+        gap: 5px;
+      }
+
       &__mail {
+        display: block;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 130%;
+      }
+
+      &__phone {
         display: block;
         font-weight: 600;
         font-size: 13px;
@@ -206,7 +225,17 @@
         line-height: 130%;
       }
 
+      &__contactWrapper {
+        display: flex;
+        gap: 30px;
+      }
+
       &__mail {
+        font-size: 15px;
+        line-height: 130%;
+      }
+
+      &_phone {
         font-size: 15px;
         line-height: 130%;
       }

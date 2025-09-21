@@ -96,7 +96,9 @@ const FormTask = () => {
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (495) 798-20-20</h4>
+                <h4 className="formtask__info-phone">
+                  <a href="https://t.me/codestaff" target="_blank" className="formtask__info-phone-link">+7 (903) 798-20-20</a>
+                </h4>
               </div>
             </div>
           </div>

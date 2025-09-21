@@ -7,13 +7,26 @@ const Vacancies = () => {
   const [closingCards, setClosingCards] = useState<Set<number>>(new Set());
 
   const vacancies = [
-    // {
-    //   category: 'Разработка',
-    //   location: 'Удаленно',
-    //   title: 'Java back-разработчик (middle)',
-    //   salary: 'от 140 000 ₽',
-    //   description: 'Тут будет описание вакансии.',
-    // },
+    {
+      category: 'Разработка',
+      location: 'Удаленно',
+      title: 'Java back-разработчик (middle)',
+      // salary: 'от 140 000 ₽',
+      description: `
+        <ul class="vacancies__list">
+          <li>Высшее профессиональное образование в сфере информационных технологий, магистратура</li>
+          <li>Опыт работы не менее 2-х лет, для уровня «Middle»</li>
+          <li>Умение программировать на языках Java (Spring Framework)</li>
+          <li>СУБД: SQL, PostgreSQL</li>
+          <li>Будет преимуществом знание Elasticsearch</li>
+          <li>Умение работать с Git</li>
+          <li>Знание протоколов передачи данных через клиентские приложения (http и https)</li>
+          <li>Понимание этапов разработки продуктов (SDLC)</li>
+          <li>Понимание масштабирования, устройства кэширования и асинхронных запросов;</li>
+          <li>Знание методологии управления проектами Agile</li>
+        </ul>
+      `,
+    },
     {
       category: 'Разработка',
       location: 'Удаленно',

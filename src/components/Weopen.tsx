@@ -1,5 +1,6 @@
 import React from "react";
 import formtaskAvatar from "../assets/images/formtask_alex_small.jpg";
+import logoText from "../assets/images/big_new_logo_text.svg";
 
 const Weopen = () => {
   const handleClick = (
@@ -29,10 +30,10 @@ const Weopen = () => {
               </a>
               , написать нам{" "}
               <a href="mailto:info@codestaff.ru" className="weopen__text-about--link">
-                на почту
+                на почту&nbsp;
               </a>{" "}
               или{" "}
-              <a href="https://t.me/Alexey_CodeStaff" className="weopen__text-about--link">
+              <a href="https://t.me/codestaff" className="weopen__text-about--link">
                 в телеграм
               </a>
             </h2>
@@ -49,12 +50,19 @@ const Weopen = () => {
               </div>
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
-                <h4 className="formtask__info-phone">+7 (495) 798-20-20</h4>
+                <h4 className="formtask__info-phone">
+                  <a href="https://t.me/codestaff" target="_blank" className="weopen__info-phone-link">
+                    +7 (903) 798-20-20
+                  </a>
+                </h4>
               </div>
             </div>
           </div>
         </div>
-        <h1 className="discuss__title">codestaff</h1>
+        {/* <h1 className="discuss__title">codestaff</h1> */}
+        <div className="weopen__logoWrapper">
+          <img src={logoText} className="weopen__logo" alt="CodeStaff logo" />
+        </div>
       </div>
     </section>
   );

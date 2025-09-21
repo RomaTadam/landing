@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo_new_small.png";
 import hamburger from "../assets/images/hamburger_menu.svg";
 import mobileMenuClose from "../assets/images/mobile_menu_close.svg";
 
@@ -92,13 +92,22 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-            <a
-              className="header__mail"
-              href="mailto:info@codestaff.ru"
-              onClick={handleEmailClick}
-            >
-              info@codestaff.ru
-            </a>
+            <div className="header__contactWrapper">
+              <a
+                className="header__phone"
+                href="tel:+74957982020"
+                onClick={handleEmailClick}
+              >
+                +7 (495) 798-20-20 <br /> Для звонков
+              </a>
+              <a
+                className="header__mail"
+                href="mailto:info@codestaff.ru"
+                onClick={handleEmailClick}
+              >
+                info@codestaff.ru
+              </a>              
+            </div>
             <div 
               className="header__hamburger"
               onClick={openSideMenu}
@@ -170,6 +179,13 @@ const Header = () => {
                   </li>
                 </ul>
               </nav>
+              <a
+                className="header__sideMenu-mail"
+                href="tel:+74957982020"
+                onClick={handleEmailClick}
+              >
+                +7 (495) 798-20-20 <br /> Для звонков
+              </a>
               <a
                 className="header__sideMenu-mail"
                 href="mailto:info@codestaff.ru"
