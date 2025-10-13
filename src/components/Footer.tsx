@@ -9,10 +9,14 @@ const Footer = () => {
           <nav className="footer__menu">
             <ul className="footer__menu-list">
               <li className="footer__menu-item">
-                <span className="footer__menu-link">Политика конфиденциальности</span>
+                <a href="/Privacy_Policy_for_the_Processing_of_Personal Data_CODESTAFF.pdf" target="_blank" className="footer__menu-link">
+                  Политика конфиденциальности
+                </a>
               </li>
               <li className="footer__menu-item">
-                <span className="footer__menu-link">Пользовательское соглашение</span>
+                <a href="/User_Agreement_CODESTAFF.pdf" target="_blank" className="footer__menu-link">
+                  Пользовательское соглашение
+                </a>
               </li>
             </ul>
           </nav>

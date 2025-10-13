@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/logo_new_small.png";
+import logo from "../assets/images/LogoV2_small.png";
 import hamburger from "../assets/images/hamburger_menu.svg";
 import mobileMenuClose from "../assets/images/mobile_menu_close.svg";
 
@@ -98,7 +98,7 @@ const Header = () => {
                 href="tel:+74957982020"
                 onClick={handleEmailClick}
               >
-                +7 (495) 798-20-20 <br /> Для звонков
+                Для&nbsp;звонков +7&nbsp;(495)&nbsp;798&#8209;20&#8209;20
               </a>
               <a
                 className="header__mail"
@@ -184,7 +184,8 @@ const Header = () => {
                 href="tel:+74957982020"
                 onClick={handleEmailClick}
               >
-                +7 (495) 798-20-20 <br /> Для звонков
+                +7&nbsp;(495)&nbsp;798&#8209;20&#8209;20 <br /> 
+                Для звонков
               </a>
               <a
                 className="header__sideMenu-mail"

@@ -33,7 +33,7 @@ const Weopen = () => {
                 на почту&nbsp;
               </a>{" "}
               или{" "}
-              <a href="https://t.me/codestaff" className="weopen__text-about--link">
+              <a href="https://t.me/codestaff" target="_blank" className="weopen__text-about--link" rel="nofollow noreferrer noopener">
                 в телеграм
               </a>
             </h2>
