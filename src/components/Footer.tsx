@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer" id="footer">
       <div className="container">
         <div className="footer__wrapper">
-          <p className="footer_copyright">©CODESTAFF, 2024</p>
+          <p className="footer_copyright">©CODESTAFF, 2024-2025</p>
           <nav className="footer__menu">
             <ul className="footer__menu-list">
               <li className="footer__menu-item">

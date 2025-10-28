@@ -97,7 +97,7 @@ const FormTask = () => {
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
                 <h4 className="formtask__info-phone">
-                  <a href="https://t.me/codestaff" target="_blank" className="formtask__info-phone-link" rel="nofollow noreferrer noopener">
+                  <a href="https://t.me/code_staff" target="_blank" className="formtask__info-phone-link" rel="nofollow noreferrer noopener">
                     +7 (903) 798-20-20
                   </a>
                 </h4>

@@ -33,7 +33,7 @@ const Weopen = () => {
                 на почту&nbsp;
               </a>{" "}
               или{" "}
-              <a href="https://t.me/codestaff" target="_blank" className="weopen__text-about--link" rel="nofollow noreferrer noopener">
+              <a href="https://t.me/code_staff" target="_blank" className="weopen__text-about--link" rel="nofollow noreferrer noopener">
                 в телеграм
               </a>
             </h2>
@@ -51,7 +51,7 @@ const Weopen = () => {
               <div className="formtask__info">
                 <p className="formtask__info-title">Телефон менеджера:</p>
                 <h4 className="formtask__info-phone">
-                  <a href="https://t.me/codestaff" target="_blank" className="weopen__info-phone-link">
+                  <a href="https://t.me/code_staff" target="_blank" className="weopen__info-phone-link">
                     +7 (903) 798-20-20
                   </a>
                 </h4>
