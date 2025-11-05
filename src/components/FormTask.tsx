@@ -182,7 +182,7 @@ const FormTask = () => {
                   {isSubmitting ? "Отправка..." : "Обсудить проект"}
                 </button>
                 <p className="formtask__form-text">
-                  Нажимая на кнопку «Обсудить проект» я принимаю условия <span className="formtask__form-link">политики конфедиценциальности</span>, <span className="formtask__form-link">пользовательского соглашения</span> и <span className="formtask__form-link">публичной оферты</span>
+                  Нажимая на кнопку «Обсудить проект» я принимаю условия <a className="formtask__form-link" href="/Privacy_Policy_for_the_Processing_of_Personal Data_CODESTAFF.pdf" target="_blank">политики конфиденциальности</a>, <a className="formtask__form-link" href="/User_Agreement_CODESTAFF.pdf" target="_blank">пользовательского соглашения</a> и <a className="formtask__form-link" href="/Public_Offer_CODESTAFF.pdf" target="_blank">публичной оферты</a>
                 </p>
               </div>
             </form>

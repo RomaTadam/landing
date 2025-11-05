@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/images/LogoV2_small.png";
+import logo from "../assets/images/LogoV2_small_light.png";
 import hamburger from "../assets/images/hamburger_menu.svg";
 import mobileMenuClose from "../assets/images/mobile_menu_close.svg";
 

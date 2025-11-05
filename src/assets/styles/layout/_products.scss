@@ -52,14 +52,18 @@
   &__card {
     background-color: $grayDark;
 
-    min-height: 270px;
-    height: 270px;
+    min-height: 400px;
+    height: 400px;
 
-    padding: 36px 24px;
+    padding: 170px 24px 36px;
 
     display: flex;
     flex-direction: column;
-    justify-content: end; 
+    // justify-content: end; 
+
+    // &-content {
+    //   margin-top: auto;
+    // }
 
     &-title {
       font-size: 20px;
@@ -86,8 +90,8 @@
       background-size: 215px 180px;  
       
       &--FastCode {
-        min-height: 460px;
-        height: 460px;
+        min-height: 520px;
+        height: 520px;
       }
     }
 
@@ -191,10 +195,10 @@
       }
 
       &__card {
-        min-height: 334px;
-        height: 334px;
+        min-height: 440px;
+        height: 440px;
     
-        padding: 170px 30px 36px 32px;
+        padding: 180px 30px 36px 32px;
 
         &-title {
           font-size: 26px;
@@ -208,6 +212,11 @@
           grid-column: span 2;
           
           background-size: 330px;
+
+          min-height: 400px;
+          height: 400px;
+
+          justify-content: center;
 
           &--FastCode {
             min-height: 480px;
@@ -283,8 +292,8 @@
       }      
 
       &__card {    
-        min-height: 360px;
-        height: 360px;
+        min-height: 400px;
+        height: 400px;
     
         padding-top: 175px;
 
@@ -292,15 +301,15 @@
           min-height: 300px;
           height: 300px;
 
-          padding-top: 140px;
+          padding-top: 175px;
 
           background-size: 305px;
 
           &--FastCode {
             padding-right: 240px;
 
-            // min-height: 400px;
-            // height: 400px;
+            min-height: 450px;
+            height: 450px;
           }
         }
 
