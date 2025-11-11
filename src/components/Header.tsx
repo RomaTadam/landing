@@ -47,20 +47,20 @@ const Header = () => {
               <ul className="header__menu-list">
                 <li className="header__menu-item">
                   <a
-                    onClick={(e) => handleClick(e, "#services")}
-                    href="#services"
-                    className="header__menu-link"
-                  >
-                    Услуги
-                  </a>
-                </li>
-                <li className="header__menu-item">
-                  <a
                     onClick={(e) => handleClick(e, "#products")}
                     href="#products"
                     className="header__menu-link"
                   >
                     Продукты
+                  </a>
+                </li>
+                <li className="header__menu-item">
+                  <a
+                    onClick={(e) => handleClick(e, "#services")}
+                    href="#services"
+                    className="header__menu-link"
+                  >
+                    Услуги
                   </a>
                 </li>
                 <li className="header__menu-item">
@@ -134,20 +134,20 @@ const Header = () => {
                 <ul className="header__sideMenu-list">
                   <li className="header__sideMenu-item">
                     <a
-                      onClick={(e) => handleClick(e, "#services")}
-                      href="#services"
-                      className="header__sideMenu-link"
-                    >
-                      Услуги
-                    </a>
-                  </li>
-                  <li className="header__sideMenu-item">
-                    <a
                       onClick={(e) => handleClick(e, "#products")}
                       href="#products"
                       className="header__sideMenu-link"
                     >
                       Продукты
+                    </a>
+                  </li>
+                  <li className="header__sideMenu-item">
+                    <a
+                      onClick={(e) => handleClick(e, "#services")}
+                      href="#services"
+                      className="header__sideMenu-link"
+                    >
+                      Услуги
                     </a>
                   </li>
                   <li className="header__sideMenu-item">
