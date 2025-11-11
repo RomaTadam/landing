@@ -24,9 +24,9 @@ function App() {
           <Separator />
           <Achievements />
           <Separator />
-          <Services />
-          <Separator mobile />
           <Products />
+          <Separator mobile />
+          <Services />
           <Separator mobile />
           <Stack />
           <FormTask />
