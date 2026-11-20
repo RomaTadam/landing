@@ -139,6 +139,11 @@
       padding-bottom: 20px;
     }
 
+    &--Portal {
+      height: auto;
+    }
+
+    &--Portal,
     &--Projects {
       background-image: url('/src/assets/images/services_outstaffing.png');
       background-repeat: no-repeat;
@@ -240,6 +245,7 @@
           background-size: 300px;
         }
 
+        &--Portal,
         &--Projects {
           background-size: 200px;
         }
@@ -329,6 +335,7 @@
           background-size: 385px;
         }
 
+        &--Portal,
         &--Projects {
           background-size: 270px;
         }

@@ -24,6 +24,12 @@ const Products = () => {
                 <div className="products__card-text">Интеллектуальная <strong>ECM</strong>-система для управления корпоративным контентом, совмещающая лучшие практики документооборота и полное соответствие законодательству РФ. Масштабируемое решение, идеально подходящее для компаний любого размера</div>
               </div>
             </div>            
+            <div className="products__card products__card--Portal">
+              <div className="products__card-content">
+                <h4 className="products__card-title">SmartFlow.Portal</h4>
+                <div className="products__card-text">Единая цифровая площадка для работы с внешними контрагентами (клиентами, поставщиками, самозанятыми/ИП). Обмен документами, согласование условий и подписание договоров в защищённой среде сокращают сроки сделок и объём ручных операций</div>
+              </div>
+            </div>            
             <div className="products__card products__card--Archive">
               <div className="products__card-content">
                 <h4 className="products__card-title">SmartFlow.Archive</h4>
